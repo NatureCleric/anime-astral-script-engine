@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0620"/>
+      <stop offset="45%" stop-color="#191033"/>
+      <stop offset="100%" stop-color="#100a26"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8a5cff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8a5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4fd6ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4fd6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="starLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+  <circle cx="200" cy="90" r="180" fill="url(#glow1)"/>
+  <circle cx="1000" cy="270" r="220" fill="url(#glow2)"/>
+
+  <g opacity="0.55">
+    <circle cx="90" cy="60" r="2" fill="#ffffff"/>
+    <circle cx="150" cy="40" r="1.5" fill="#ffffff"/>
+    <circle cx="60" cy="130" r="1.5" fill="#ffffff"/>
+    <circle cx="1120" cy="70" r="2" fill="#ffffff"/>
+    <circle cx="1080" cy="120" r="1.5" fill="#ffffff"/>
+    <circle cx="1150" cy="150" r="1.5" fill="#ffffff"/>
+    <circle cx="140" cy="320" r="1.5" fill="#ffffff"/>
+    <circle cx="1060" cy="320" r="2" fill="#ffffff"/>
+    <circle cx="1000" cy="40" r="1.5" fill="#ffffff"/>
+    <circle cx="220" cy="300" r="1.5" fill="#ffffff"/>
+    <circle cx="45" cy="220" r="1.5" fill="#ffffff"/>
+    <circle cx="1160" cy="240" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <g opacity="0.4" fill="none" stroke="#c9a7ff">
+    <circle cx="600" cy="180" r="140" stroke-width="0.8"/>
+    <circle cx="600" cy="180" r="170" stroke-width="0.6"/>
+  </g>
+
+  <path d="M 100 50 L 104 60 L 114 62 L 104 64 L 100 74 L 96 64 L 86 62 L 96 60 Z" fill="#e6d8ff" opacity="0.5"/>
+  <path d="M 1110 300 L 1113 307 L 1120 309 L 1113 311 L 1110 318 L 1107 311 L 1100 309 L 1107 307 Z" fill="#cfe9ff" opacity="0.45"/>
+  <path d="M 950 60 L 953 67 L 960 69 L 953 71 L 950 78 L 947 71 L 940 69 L 947 67 Z" fill="#cfe9ff" opacity="0.4"/>
+
+  <line x1="250" y1="120" x2="450" y2="120" stroke="url(#starLine)" stroke-width="1"/>
+  <line x1="750" y1="240" x2="950" y2="240" stroke="url(#starLine)" stroke-width="1"/>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="54.0" fill="#ffffff" font-weight="600">
+    <tspan x="600" dy="0">Anime Astral Simulator Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0" font-size="18.1">Script engine for Anime Astral Simulator players — reads player stats, processes drop data, exports farm</tspan>
+  </text>
+</svg>
